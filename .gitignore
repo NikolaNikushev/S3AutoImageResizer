@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+/**/*/.idea
+/.idea
+node_modules
+.serverless
+.terraform
+.terraform.tfstate.lock*
+terraform/terraform.tfvars
+/terraform/terraform.tfstate
+/terraform/terraform.tfstate.backup

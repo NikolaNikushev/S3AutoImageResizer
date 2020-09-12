@@ -1,0 +1,17 @@
+aws_access_key_id = "XXXX"
+aws_secret_access_key = "XXXX"
+amc_certificate_arn = "XXXX"
+cdn = {
+  namespace = "cdn.yourwebsite"
+  aliases = ["cdn.yourwebsite.com"]
+}
+
+route53 = {
+  domainName = "yourwebsite.com"
+}
+
+buckets = {
+  cdnBucket = {
+    name = "cdn.yourwebsite.com"
+  }
+}
